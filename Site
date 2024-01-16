@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACET Procurement Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .procurement-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .procurement-item {
+      margin-bottom: 20px;
+    }
+
+    .procurement-item h3 {
+      margin-bottom: 5px;
+    }
+
+    .procurement-item p {
+      margin: 0;
+    }
+
+    .award-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .award-item {
+      margin-bottom: 20px;
+    }
+
+    .award-item h3 {
+      margin-bottom: 5px;
+    }
+
+    .award-item p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ACET Procurement Portal</h1>
+  </header>
+
+  <section>
+    <h2>Upcoming/Open Procurements</h2>
+    <ul class="procurement-list">
+      <!-- Sample Procurement Item -->
+      <li class="procurement-item">
+        <h3>Name of Procurement 1</h3>
+        <p>Details of Procurement 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <!-- Add more fields as needed -->
+      </li>
+
+      <!-- Add more procurement items as needed -->
+    </ul>
+  </section>
+
+  <section>
+    <h2>Successful Procurement Awards</h2>
+    <ul class="award-list">
+      <!-- Sample Award Item -->
+      <li class="award-item">
+        <h3>Name of Procurement Award 1</h3>
+        <p>Details of Award 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <!-- Add more fields as needed -->
+      </li>
+
+      <!-- Add more award items as needed -->
+    </ul>
+  </section>
+</body>
+</html>
